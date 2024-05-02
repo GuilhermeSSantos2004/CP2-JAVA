@@ -1,6 +1,6 @@
 # CP2-JAVA
 
-## Links
+## Link
 - [Canal no Youtube](link_para_o_canal)
 
 ## Integrante
