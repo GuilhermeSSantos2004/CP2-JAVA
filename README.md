@@ -1,4 +1,4 @@
-<h1>cp2 Veículo</h1>
+<h1>CP2-JAVA/h1>
 
 <h2>Links</h2>
 <ol>
