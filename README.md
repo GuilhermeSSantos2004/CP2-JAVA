@@ -15,22 +15,33 @@ Este é um simulador de veículos simples em Java. Ele permite simular o comport
 3. Abra o terminal e navegue até o diretório onde o repositório foi clonado.
 4. Compile o código-fonte usando o seguinte comando:
 
+5. Execute o programa compilado com o seguinte comando:
+
+
+java Main
+
+
 ## Documentação do Código
 
-# Veiculo.java
-Classe base que representa um veículo.
+### Veiculo.java
+Classe base que representa um veículo. Ela possui os seguintes atributos:
 
-# Carro.java
-Representa um carro de passeio.
+- Marca: representa a marca do veículo.
+- Modelo: representa o modelo do veículo.
+- Ano: representa o ano de fabricação do veículo.
+- Velocidade Máxima: representa a velocidade máxima permitida para o veículo.
+- Velocidade Atual: representa a velocidade atual do veículo.
 
-# Moto.java
-Representa uma motocicleta.
-
-# Caminhao.java
-Representa um caminhão para transporte de cargas.
-
-# ele pode realizar as seguintes ações: 
+Além disso, a classe Veiculo pode realizar as seguintes ações:
 
 1. Aceleração e redução de velocidade.
 2. Verificação do status do veículo, incluindo nome, modelo, ano, velocidade máxima e velocidade atual.
-3. Funcionalidades específicas para cada tipo de veículo, como empinar para motos, controle de ar condicionado para carros, e controle de carga para caminhões.
+
+### Carro.java
+Representa um carro de passeio. Esta classe herda da classe Veiculo e adiciona a funcionalidade de controle de ar condicionado. 
+
+### Moto.java
+Representa uma motocicleta. Esta classe herda da classe Veiculo e adiciona a funcionalidade de empinar a moto quando a velocidade está entre 20 km/h e 50 km/h.
+
+### Caminhao.java
+Representa um caminhão para transporte de cargas. Esta classe herda da classe Veiculo e adiciona a funcionalidade de controle de carga.
