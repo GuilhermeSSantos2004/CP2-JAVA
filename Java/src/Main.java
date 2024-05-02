@@ -1,20 +1,18 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
 
-    Moto moto = new Moto("yamaha", "2021", 2020,  22);
+    Moto moto = new Moto("MT-90", "2024", 2024,  23);
     moto.acelerar(10);
     moto.obterStatus();
     moto.empinar();
 
-    Carro carro = new Carro("fiesta", "2008", 2008, 120, true);
-    carro.reduzirVelocidade(40);
+    Carro carro = new Carro("Hilux", "2005", 2005, 120, true);
+    carro.reduzirVelocidade(30);
     carro.desligarArCondicionado();
     carro.obterStatus();
 
-    Caminhao caminhao = new Caminhao("Toyota", "2005", 2005, 120, 1200);
-    caminhao.diminuirCarga(200);
+    Caminhao caminhao = new Caminhao("Ford", "2008", 2008, 120, 1000);
+    caminhao.diminuirCarga(150);
     caminhao.obterStatus();
 
 
