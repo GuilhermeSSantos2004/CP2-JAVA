@@ -1,12 +1,12 @@
 public class Veiculo {
-    private String nome;
+    private String marca;
     private String modelo;
     private int ano;
     private int velocidadeMaxima;
     private int velocidadeAtual;
 
-    public Veiculo(String nome, String modelo, int ano, int velocidadeMaxima, int velocidadeAtual) {
-        this.nome = nome;
+    public Veiculo(String marca, String modelo, int ano, int velocidadeMaxima, int velocidadeAtual) {
+        this.marca = marca;
         this.modelo = modelo;
         this.ano = ano;
         this.velocidadeMaxima = velocidadeMaxima;
@@ -15,8 +15,8 @@ public class Veiculo {
 
     //Setters
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setMarca(String marca) {
+        this.marca = marca;
     }
 
     public void setModelo(String modelo) {
@@ -37,8 +37,8 @@ public class Veiculo {
 
     //Getters
 
-    public String getNome() {
-        return nome;
+    public String getMarca() {
+        return marca;
     }
 
     public String getModelo() {
@@ -59,7 +59,7 @@ public class Veiculo {
 
     public void acelerar(int incremento) {
         if (velocidadeAtual + incremento > velocidadeMaxima) {
-            System.out.println("Velocidade adicionada passou do limite de velocidade máxima, ação inválida. Velocidade máxima: " + velocidadeMaxima);
+            System.out.println("Velocidade excede o limite máximo. Velocidade máxima: " + velocidadeMaxima + " km/h.");
             return;
         }
 
@@ -75,12 +75,11 @@ public class Veiculo {
     }
 
     public void obterStatus(){
-        System.out.println("Nome: " + nome);
+        System.out.println("Marca: " + marca);
         System.out.println("Modelo: " + modelo);
         System.out.println("Ano: " + ano);
-        System.out.println("Velocidade Máxima: " + velocidadeMaxima);
-        System.out.println("Velocidade Atual: " + velocidadeAtual);
+        System.out.println("Velocidade Máxima: " + velocidadeMaxima + " km/h");
+        System.out.println("Velocidade Atual: " + velocidadeAtual + " km/h");
     }
 
 }
-
