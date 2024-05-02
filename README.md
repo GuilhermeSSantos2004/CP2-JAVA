@@ -1,7 +1,7 @@
 # CP2-JAVA
 
 ## Link
-- [Canal no Youtube](link_para_o_canal)
+- [Canal no Youtube]([link_para_o_canal](https://youtu.be/ypKcdz0c8YY))
 
 ## Integrante
 - 2ESPX - Guilherme Silva Dos Santos RM551168
